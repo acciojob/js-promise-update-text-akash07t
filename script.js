@@ -1,6 +1,6 @@
 //your JS code here. If required.
 //your JS code here. If required.
-function a (){
+
   const prom = new Promise((resolve,reject)=>{
      setTimeout(function() {
        resolve("Hello, world!")
@@ -13,5 +13,5 @@ function a (){
 	
   
  
-}
+
 a()
