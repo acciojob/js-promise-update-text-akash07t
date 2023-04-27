@@ -1,8 +1,17 @@
 //your JS code here. If required.
-let output = document.getElementById("output");
-let p = new Promise((resolve,reject) =>{
-	setTimeout(resolve("Hello, world!"),1000);
-})
-p.then((value)=>{
-	output.innerHTML = value;
-})
+//your JS code here. If required.
+function a (){
+  const prom = new Promise((resolve,reject)=>{
+     setTimeout(function() {
+       resolve("Hello, world!")
+     }, 1000);
+  })
+  .then((res)=>{
+    const rend = document.getElementById('output');
+	rend.innerHTML = `${res}`
+  })
+	
+  
+ 
+}
+a()
